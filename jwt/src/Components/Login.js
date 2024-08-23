@@ -108,33 +108,3 @@ export default function Login({
       </div>
     </div>
   </div>)}
-
-
-
-
-
-//     <div>
-//       <div>
-//         <h1>Login</h1>
-//         <form onSubmit={handleLogin}>
-//           <input
-//             value={username}
-//             placeholder="Enter name"
-//             onChange={(e) => setName(e.target.value)}
-//           />
-//           <input
-//             value={password}
-//             placeholder="Enter password"
-//             onChange={(e) => setPassword(e.target.value)}
-//           />
-//           <button type="submit">Login</button>
-//         </form>
-//       </div>
-//       <div>
-//         <h1>Protected Route</h1>
-//         <button onClick={handleProtected}>Access Routes</button>
-//       </div>
-//       <ToastContainer />
-//     </div>
-//   );
-// }
